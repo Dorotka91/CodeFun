@@ -1,0 +1,6 @@
+<h1><%= @post.title %></h1> 
+
+<div>
+<p><center><b><%= @post.content %></b></center></p>
+  <%=link_to "Delete" , post_path(@post), method: :delete %>
+</div>
